@@ -45,18 +45,18 @@ $(document).ready(function() {
       
     
 
-//  });
-// $('.tweet-actions').hide();
-// $('.stats').hide();
-// $('.tweet').on('mouseenter', function() {
-//   $(this).find('.tweet-actions').show();
-//   $(this).find('.stats').show();
-// });
 
-// $('.tweet').on('mouseleave', function(){
-// 	$(this).find('.tweet-actions').hide();
-// 	$('.stats').hide(); 
-// });
+$('.tweet-actions').hide();
+$('.stats').hide();
+$('.tweet').on('mouseenter', function() {
+  $(this).find('.tweet-actions').show();
+  $(this).find('.stats').show();
+});
+
+$('.tweet').on('mouseleave', function(){
+	$(this).find('.tweet-actions').hide();
+	$('.stats').hide(); 
+});
  
  });
 
